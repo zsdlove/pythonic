@@ -31,9 +31,9 @@ def main(i):
     for j in array:
         try:
             filepath = []
-            filename = dirfile("I:\\kuku\\BreachCompilation\\data\\"+j+"\\")
+            filename = dirfile("I:\\mimi\\xxx\\data\\"+j+"\\")
             for fn in filename:
-                filepath.append("I:\\kuku\\BreachCompilation\\data\\"+j+"\\" + fn)
+                filepath.append("I:\\mimi\\xxx\\data\\"+j+"\\" + fn)
             for f in filepath:
                 print "开始存储".decode("utf-8")+f+"中的用户名和密码...".decode("utf-8")
                 dmfile = open(f)
